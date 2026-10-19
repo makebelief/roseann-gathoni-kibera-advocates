@@ -20,7 +20,7 @@ body{background:#fff;color:#111}a{color:inherit}
 .practice-card-custom h3,.practice-card-custom p,.practice-card-custom .card-number{color:#fff!important}
 .section.cream{background:#f5f5f5!important}.site-footer{background:#111!important;color:white!important}.site-footer a,.site-footer h3{color:#fff!important}
 .floating-contact{background:#fff!important;color:#111!important;border:2px solid #111!important}
-.floating-whatsapp-bw{position:fixed;z-index:95;right:19px;bottom:21px;width:62px;height:62px;border-radius:50%;background:#111;color:#fff;box-shadow:0 6px 22px #0006;display:grid;place-items:center;border:2px solid white}
+.floating-whatsapp-bw{position:fixed;z-index:95;right:19px;bottom:21px;width:62px;height:62px;border-radius:50%;background:#25D366;color:#fff;box-shadow:0 6px 22px #0006;display:grid;place-items:center;border:2px solid white}
 .floating-whatsapp-bw svg{width:33px;height:33px;fill:white}.floating-whatsapp-bw:hover{transform:translateY(-3px)}
 .scroll-top{bottom:98px!important}.social-preview{filter:grayscale(1)}
 .picture-strip{margin:40px 0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.picture-strip img{width:100%;height:200px;object-fit:cover;filter:grayscale(1);display:block}
