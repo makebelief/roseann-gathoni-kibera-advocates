@@ -1,0 +1,1 @@
+Founder portrait: provided by user in chat. Hero scales artwork: carried over from user-provided reference website. Other practice cards use solid backgrounds. Confirm permission for all media before publishing.
