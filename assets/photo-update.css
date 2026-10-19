@@ -1,0 +1,10 @@
+
+/* 2026 photograph and responsive corrections */
+.practice-card::before,.practice-card-custom::before{filter:none!important;opacity:1!important;background-position:center!important;background-size:cover!important}
+.practice-card::after,.practice-card-custom::after,.practice-card .practice-shade{background:linear-gradient(0deg,rgba(0,0,0,.80),rgba(0,0,0,.11) 75%)!important}
+.page-hero::before{filter:none!important}
+.page-hero{background-color:#111!important}
+.map-frame,.map-frame iframe,.map-frame *{filter:none!important;-webkit-filter:none!important}
+.page-hero::before,.hero::before{background-color:#111}
+@media(max-width:900px){.practice-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}.practice-card{min-width:0}.page-hero{min-height:400px}}
+@media(max-width:640px){.practice-grid{grid-template-columns:1fr!important}.practice-card{min-height:270px!important}.page-hero{min-height:360px!important}.page-hero h1{font-size:clamp(33px,9vw,52px)!important}.map-frame iframe{min-height:320px!important}.container{width:min(100% - 34px,1200px)!important}.hero-inner{width:min(100% - 34px,1200px)!important}.contact-grid,.two-column,.intro-grid{grid-template-columns:1fr!important}}

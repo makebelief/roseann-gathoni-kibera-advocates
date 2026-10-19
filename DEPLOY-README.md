@@ -1,0 +1,1 @@
+Run ./fetch-photos.sh to download, verify and host real photographs locally before pushing to GitHub. The HTML has remote photo fallbacks pending this command. Then git add -A && git commit -m "Improve photographs and social preview" && git push origin main && vercel --prod --yes. Social preview: /assets/social-preview.jpg.
