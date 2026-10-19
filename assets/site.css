@@ -95,3 +95,29 @@ body{color:var(--ink)}.topbar{background:#284236}.site-footer{background:#263d30
 #form-status:not(:empty){padding:12px 0;line-height:1.5}
 @media(max-width:850px){.contact-grid{grid-template-columns:1fr!important;gap:32px!important}.contact-form-shell{max-width:760px;width:100%}}
 @media(max-width:600px){.contact-form-shell{padding:20px 14px!important;border-radius:9px}#contact-form{padding:22px 15px!important}.intro-picture>img{max-height:none!important}.hero{min-height:570px}.hero::before{background-position:62% center}.form-grid{grid-template-columns:1fr!important}.contact-form-shell #contact-form input:not([type=checkbox]),.contact-form-shell #contact-form textarea{width:100%;max-width:100%}}
+
+
+/* ROSEANN BRAND OVERRIDES — neutral black / white / grey only */
+:root{--navy:#111111;--navy-deep:#080808;--navy-soft:#282828;--gold:#111111;--gold-light:#d0d0d0;--red:#111111;--ink:#191919;--body:#565656;--cream:#f8f8f8;--line:#dedede}
+.topbar,.site-footer,.closing,.section-navy{background:#101010!important}
+.nav-link,.nav-link.active,.nav-link:hover{color:#151515!important}
+.nav-link::after,.nav-link:after,.accent-line,.hero-notes span:before{background:#111!important}
+.eyebrow,.eyebrow-light,.text-link,.card-number{color:#222!important}
+.hero .eyebrow,.page-hero .eyebrow,.eyebrow-light,.hero h1 em{color:#fff!important}
+.btn-gold,.nav-cta,.hero .btn-gold{background:#111!important;border-color:#111!important;color:#fff!important}
+.btn-gold:hover,.nav-cta:hover,.hero .btn-gold:hover{background:#353535!important;border-color:#353535!important}
+.btn-navy{background:#111!important;border-color:#111!important}
+.hero,.page-hero{background-color:#0c0c0c!important}
+.hero::before{background-image:linear-gradient(90deg,rgba(0,0,0,.95),rgba(0,0,0,.78) 45%,rgba(0,0,0,.25)),var(--hero-image)!important}
+.page-hero::before{background-image:linear-gradient(90deg,rgba(0,0,0,.95),rgba(0,0,0,.78) 43%,rgba(0,0,0,.25)),var(--page-image)!important}
+.practice-shade{background:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.85) 70%,#080808 100%)!important}
+.picture-stamp{background:#141414!important}
+.floating-whatsapp-bw,.floating-whatsapp,.floating-contact{background:#25D366!important;color:#fff!important;border:2px solid #fff!important;border-radius:50%!important;box-shadow:0 6px 25px #0005!important}
+.floating-whatsapp-bw svg,.floating-whatsapp svg,.floating-contact svg{fill:#fff!important;color:#fff!important}
+.floating-whatsapp-bw:hover,.floating-whatsapp:hover{background:#128C7E!important}
+.firm-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:36px;margin-bottom:24px}
+.firm-pillar{background:#f4f4f4;border-top:4px solid #111;min-height:175px;padding:26px 23px}
+.firm-pillar span{display:block;font-weight:900;font-size:11px;letter-spacing:.16em;color:#616161;margin-bottom:16px}
+.firm-pillar h3{font-size:21px;line-height:1.3;margin:0 0 8px;color:#111}
+.firm-pillar p{font-size:13px;line-height:1.6;margin:0;color:#555}
+@media(max-width:700px){.firm-pillars{grid-template-columns:1fr;margin-top:22px}.firm-pillar{min-height:unset}.hero::before{background-image:linear-gradient(90deg,rgba(0,0,0,.93),rgba(0,0,0,.45)),var(--hero-image)!important}}
